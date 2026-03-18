@@ -24,7 +24,7 @@ const Auth = () => {
 			<div className="Auth__opacityLayer" />
 			<div className="Auth__bgLayer" style={{ backgroundImage: `url(${SIGNIN_BGIMG_URL})` }} />
 			<Link to="/" className="Auth__logo">
-				<img className="Auth__logo--img" src={LOGO_URL} alt="Fakeflix_logo" />
+				<img className="Auth__logo--img" src={LOGO_URL} alt="SasiFlix_logo" />
 			</Link>
 			<motion.div
 				className="Auth__content"
